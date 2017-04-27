@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{871B5A90-103A-46A5-BBB9-07C02B9851D1}|Default" StartupItem="BattleShips.csproj">
+﻿<Properties StartupConfiguration="{871B5A90-103A-46A5-BBB9-07C02B9851D1}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Windows|x86" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -6,14 +6,15 @@
       <Breakpoint file="C:\Converted_LegacyBattleship\src\Model\BattleShipsGame.cs" line="50" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\DeploymentController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Converted_LegacyBattleship Status">
     <Files>
-      <File FileName="src\Model\Tile.cs" Line="65" Column="4" />
-      <File FileName="src\Model\TileView.cs" Line="14" Column="28" />
-      <File FileName="src\Model\SeaGridAdapter.cs" Line="21" Column="2" />
-      <File FileName="src\Model\ISeaGrid.cs" Line="12" Column="1" />
-      <File FileName="src\Model\SeaGrid.cs" Line="81" Column="2" />
-      <File FileName="src\DeploymentController.cs" Line="79" Column="56" />
+      <File FileName="src\GameLogic.cs" Line="1" Column="1" />
+      <File FileName="src\GameController.cs" Line="89" Column="33" />
+      <File FileName="src\Model\AIHardPlayer.cs" Line="166" Column="26" />
+      <File FileName="src\DiscoveryController.cs" Line="71" Column="72" />
+      <File FileName="src\UtilityFunctions.cs" Line="1" Column="1" />
+      <File FileName="src\Model\Player.cs" Line="61" Column="27" />
+      <File FileName="Converted_LegacyBattleship Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BattleShips PreferredExecutionTarget="MonoDevelop.Default" />
