@@ -73,8 +73,8 @@ public class Tile
 	/// <param name="ship">what ship it is</param>
 	public Tile(int row, int col, Ship ship)
 	{
-		_RowValue = row;
-		_ColumnValue = col;
+		_RowValue = col;
+		_ColumnValue = row;
 		_Ship = ship;
 	}
 
