@@ -294,6 +294,9 @@ public static class GameController
 			case GameState.ViewingHighScores:
 				HighScoreController.HandleHighScoreInput();
 				break;
+			case GameState.ChangeMusicTheme:
+				MusicController.HandleMusicInput ();
+				break;
 		}
 
 		UtilityFunctions.UpdateAnimations();
@@ -327,6 +330,9 @@ public static class GameController
 				break;
 			case GameState.EndingGame:
 				EndingGameController.DrawEndOfGame();
+				break;
+			case GameState.ChangeMusicTheme:
+				MusicController.DrawMusicList ();
 				break;
 			case GameState.ViewingHighScores:
 				HighScoreController.DrawHighScores();

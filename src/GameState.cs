@@ -48,6 +48,11 @@ public enum GameState
 	EndingGame,
 
 	/// <summary>
+	/// Players are able to change the music theme
+	/// </summary>
+	ChangeMusicTheme,
+
+	/// <summary>
 	/// The player has quit. Show ending credits and terminate the game
 	/// </summary>
 	Quitting
