@@ -61,6 +61,8 @@ public static class GameResources
 		NewMusic("seaHarmony", "SeaHarmony.mp3");
 		NewMusic("Aggressive", "aggressive.mp3");
 		NewMusic ("Harmony", "harmony.mp3");
+		NewMusic ("Cinematic", "Cinematic.mp3");
+		NewMusic ("Epic", "Epic.mp3");
 	}
 
 	/// <summary>

@@ -275,6 +275,8 @@
     <None Include="Resources\sounds\aggressive.mp3" />
     <None Include="Resources\sounds\harmony.mp3" />
     <None Include="Resources\sounds\SeaHarmony.mp3" />
+    <None Include="Resources\sounds\Cinematic.mp3" />
+    <None Include="Resources\sounds\Epic.mp3" />
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />

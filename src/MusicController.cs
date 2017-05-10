@@ -8,7 +8,7 @@ using System.IO;
 
 static class MusicController
 {
-	private static readonly string [] _menuStructure = { "Default", "Harmony", "Agressive", "Quit" };
+	private static readonly string [] _menuStructure = { "Default", "Epic", "Cinematic", "Quit" };
 
 	private const int MENU_TOP = 575;
 	private const int MENU_LEFT = 30;
@@ -68,10 +68,10 @@ static class MusicController
 				SwinGame.PlayMusic (GameResources.GameMusic ("Background"));
 				break;
 			case MUSIC_HARMONY_BUTTON:
-				SwinGame.PlayMusic (GameResources.GameMusic ("Harmony"));
+				SwinGame.PlayMusic (GameResources.GameMusic ("Epic"));
 				break;
 			case MUSIC_AGREESIVE_BUTTON:
-				SwinGame.PlayMusic (GameResources.GameMusic ("Aggressive"));
+				SwinGame.PlayMusic (GameResources.GameMusic ("Cinematic"));
 				break;
 			case MUSIC_QUIT_BUTTON:
 				GameController.EndCurrentState();
