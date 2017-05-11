@@ -200,6 +200,8 @@ static class MenuController
 	/// </remarks>
 	private static void DrawButtons(int menu, int level, int xOffset)
 	{
+		SwinGame.DrawText ("Press F4 to switch to Full Screen", MENU_COLOR, GameResources.GameFont ("Menu"), 530, 570);
+
 		int btnTop = 0;
 
 		btnTop = MENU_TOP - (MENU_GAP + BUTTON_HEIGHT) * level;

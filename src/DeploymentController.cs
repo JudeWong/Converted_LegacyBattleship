@@ -125,6 +125,8 @@ static class DeploymentController
 	/// </summary>
 	public static void DrawDeployment()
 	{
+		SwinGame.DrawText ("Press F4 to switch to Full Screen", Color.Yellow, GameResources.GameFont ("Menu"), 530 ,570 );
+
 		UtilityFunctions.DrawField(GameController.HumanPlayer.PlayerGrid, GameController.HumanPlayer, true);
 
 		//Draw the Left/Right and Up/Down buttons

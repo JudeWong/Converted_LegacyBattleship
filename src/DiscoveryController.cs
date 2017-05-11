@@ -29,6 +29,10 @@ static class DiscoveryController
 			SwinGame.ToggleFullScreen ();
 		}
 
+		if (SwinGame.KeyTyped (KeyCode.vk_PRINT)) {
+			SwinGame.TakeScreenshot("gameplay");
+		}
+
 		if (SwinGame.MouseClicked(MouseButton.LeftButton)) {
 			DoAttack();
 		}
@@ -79,8 +83,12 @@ static class DiscoveryController
 		SwinGame.DrawText(GameController.HumanPlayer.Hits.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, HITS_TOP);
 		SwinGame.DrawText(GameController.HumanPlayer.Missed.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SPLASH_TOP);
 
-		SwinGame.DrawText("Press 1 to off music", Color.White, GameResources.GameFont("Menu"), 70, 286);
-		SwinGame.DrawText("Press 2 to open music", Color.White, GameResources.GameFont("Menu"), 70, 306);
+		SwinGame.DrawText("Press 1 to off music", Color.White, GameResources.GameFont("Menu"), 70, 296);
+		SwinGame.DrawText("Press 2 to open music", Color.White, GameResources.GameFont("Menu"), 70, 316);
+
+		SwinGame.DrawText ("Press F4 to switch to Full Screen", Color.White, GameResources.GameFont ("Menu"), 150, 70);
+		SwinGame.DrawText ("Press PrtScrn to take Screen Shot", Color.White, GameResources.GameFont ("Menu"), 450, 70);
+
 		if (SwinGame.KeyTyped (KeyCode.vk_1))
 		{
 			SwinGame.PauseMusic ();
