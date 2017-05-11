@@ -117,6 +117,11 @@ static class MenuController
 			return true;
 		}
 
+		if(SwinGame.KeyTyped(KeyCode.vk_F4))
+		{
+			SwinGame.ToggleFullScreen();
+		}
+
 		if (SwinGame.MouseClicked(MouseButton.LeftButton)) {
 			int i = 0;
 			for (i = 0; i <= _menuStructure[menu].Length - 1; i++) {

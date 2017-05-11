@@ -74,6 +74,21 @@ static class DiscoveryController
 		SwinGame.DrawText(GameController.HumanPlayer.Shots.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SHOTS_TOP);
 		SwinGame.DrawText(GameController.HumanPlayer.Hits.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, HITS_TOP);
 		SwinGame.DrawText(GameController.HumanPlayer.Missed.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SPLASH_TOP);
+
+		SwinGame.DrawText("Press 1 to off music", Color.White, GameResources.GameFont("Menu"), 70, 286);
+		SwinGame.DrawText("Press 2 to open music", Color.White, GameResources.GameFont("Menu"), 70, 306);
+		if (SwinGame.KeyTyped (KeyCode.vk_1))
+		{
+			SwinGame.PauseMusic ();
+		}
+		else if (SwinGame.KeyTyped (KeyCode.vk_2))
+		{
+			SwinGame.ResumeMusic ();
+		}
+		else if (SwinGame.KeyTyped (KeyCode.vk_3))
+		{
+			SwinGame.MusicVolume();
+		}
 	}
 
 }
