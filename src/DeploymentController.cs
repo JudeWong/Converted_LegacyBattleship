@@ -50,6 +50,10 @@ static class DeploymentController
 			GameController.AddNewState(GameState.ViewingGameMenu);
 		}
 
+		if (SwinGame.KeyTyped (KeyCode.vk_F4)) {
+			SwinGame.ToggleFullScreen ();
+		}
+
 		if (SwinGame.KeyTyped(KeyCode.vk_UP) | SwinGame.KeyTyped(KeyCode.vk_DOWN)) {
 			_currentDirection = Direction.UpDown;
 		}

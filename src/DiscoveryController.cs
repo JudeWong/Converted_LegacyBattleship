@@ -25,6 +25,10 @@ static class DiscoveryController
 			GameController.AddNewState(GameState.ViewingGameMenu);
 		}
 
+		if (SwinGame.KeyTyped (KeyCode.vk_F4)) {
+			SwinGame.ToggleFullScreen ();
+		}
+
 		if (SwinGame.MouseClicked(MouseButton.LeftButton)) {
 			DoAttack();
 		}
