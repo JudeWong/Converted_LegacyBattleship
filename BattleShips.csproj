@@ -78,6 +78,7 @@
     <Compile Include="src\**\*.cs" />
     <Compile Include="src\MusicController.cs" />
     <Compile Include="LauYiChengUnitTest.cs" />
+    <Compile Include="DeploymentControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SwinGame">
@@ -87,7 +88,6 @@
     <Reference Include="System" />
     <Reference Include="nunit.framework">
       <HintPath>packages\NUnit.3.6.1\lib\net45\nunit.framework.dll</HintPath>
-      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>

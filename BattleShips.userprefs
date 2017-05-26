@@ -6,14 +6,21 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Converted_LegacyBattleship Status">
     <Files>
-      <File FileName="src\MusicController.cs" Line="1" Column="1" />
+      <File FileName="src\MusicController.cs" Line="16" Column="38" />
       <File FileName="src\GameResources.cs" Line="1" Column="1" />
       <File FileName="src\MenuController.cs" Line="207" Column="58" />
       <File FileName="src\DiscoveryController.cs" Line="33" Column="36" />
-      <File FileName="src\DeploymentController.cs" Line="73" Column="12" />
-      <File FileName="LauYiChengUnitTest.cs" Line="27" Column="4" />
+      <File FileName="src\DeploymentController.cs" Line="107" Column="138" />
+      <File FileName="LauYiChengUnitTest.cs" Line="25" Column="32" />
       <File FileName="Converted_LegacyBattleship Status" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="BattleShips" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.BattleShips PreferredExecutionTarget="MonoDevelop.Default" />
